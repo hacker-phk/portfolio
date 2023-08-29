@@ -1,43 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="teststyle.css">
+   <style>
+       .green-text {
+           color: green;
+       }
+       .responsive-image {
+           max-width: 100%;
+           height: auto;
+       }
+   </style>
 </head>
-<body>
-    <div id="header">
-        <div class="container">
-            <nav>
-                <img src="MYPHOTOFORRESUMES.jpg" alt="" class="image">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">contact</a></li>
-                    <li><a href="#">help</a></li>
-                </ul>
-            </nav>
-            <div class="header-text">
-                <p>Web developer</p>
-                    <h1>Hi, I am Hemanth Kumar<br> from india</h1>
-                
-            </div>
-            </div>
+<body class="bod">
+    <div class="main">
+        <div class="navbar">
+            <div class="logo"> <span style="color: red;margin-top: 5px;">P</span>ortfolio</div>
+            <ul>
+                <li class="addunder"><a href="#">Home</a></li>
+                <li class="addunder"><a href="#">About</a></li>
+                <li class="addunder"><a href="#projects">projects</a></li>
+                <li class="addunder"><a href="#Education">Education</a></li>
+                <li class="addunder"><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-
-        <div id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="col-1"><img src="MYPHOTOFORRESUMES.jpg" alt="" class="aboutimage"></div>
-                    <div class="col-2">
-                        <h1 class="sub-title">About me</h1>
-                       <p>akjdsjkanfkdnsakfnk;kamd;lfma;ldsf;lamlds;mf;alms;fmads;fm;lamfll;mmalmd;f;af</p>
-                    </div>
-                </div>
-                
-            </div>
+        <div class="content">
+            <div class="me">
+            <h1>Hello <br> I am <span>Hemanth Kumar</span></h1>
+            <img src="finalimage.png" alt="">
+        </div>
+                <p class="para">
+                    I am a highly skilled and motivated individual with a deep passion for coding and problem-solving. My expertise lies in critical thinking, problem-solving, and quick reasoning, all of which I leverage to excel in group settings. With a strong command over Java, I consistently deliver high-quality code that not only meets technical requirements but also adheres to best practices and industry standards. 
+                </p>
+               
+           
         </div>
     </div>
+   
+    <div class="lheading" >
+      
+        <h1 class="loi" >Projects</h1>
+        <p id="projects"></p>
+        <div class="items">
+            <div class="item">
+             
+               <a href="https://github.com/hacker-phk/qr-code-generator"> <img src="./qr.jpg" alt="" class="responsive-image"></a>
+               <h2>Qr-code Project</h2>
+                <p>This is a qr code generating project based on the text entered</p>
+                <button> <a href="https://github.com/hacker-phk/qr-code-generator"> view-on &nbsp;<img src="git.png" alt="" height="20px"></a></button>
+            </div>
+            <div class="item">
+                
+                <a href="https://github.com/hacker-phk/Simon-Game"><img src="./simon.jpg" alt="" class="responsive-image"></a>
+                <h2>Simon-game Project</h2>
+                <p>The Simon game challenges players' memory and concentration as they follow a sequence of lights and sounds, providing an engaging and stimulating cognitive exercise.</p>
+                <button><a href="https://github.com/hacker-phk/Simon-Game">view-on&nbsp;<img src="git.png" alt="" height="20px"></a> </button>
+            </div>
+            <div class="item">
+                <a href="https://github.com/hacker-phk/FoodFest"><img src="./Food Fest.avif" alt="" class="responsive-image"></a>
+                <h2>Food -Fest Project</h2>
+                <p>This project focuses on ensuring the dependable delivery of pizzas to customers, employing strategies to optimize routes and maintain pizza quality for an enhanced overall experience. </p>
+                <button> <a href="https://github.com/hacker-phk/FoodFest">view-on &nbsp;<img src="git.png" alt="" height="20px"></a></button>
+            </div>
+            
+        </div>
+    </div>
+    <div class="lheading2" >
+      <p id="Education"></p>
+        <h1 class="loi" >Education</h1>
+        <div class="items">
+            <div class="item">
+              
+               <a href="https://github.com/hacker-phk/qr-code-generator"> <img src="./school.jpg" alt="" class="responsive-image"></a>
+              <h2>Board of Secondary Education</h2>
+               <h3>Z P H S (central)School</h3>
+                <p> CGPA : 9.3</p>
+                
+            </div>
+            <div class="item">
+                
+                <a href="https://github.com/hacker-phk/Simon-Game"><img src="./intermediateimage.webp" alt="" class="responsive-image"></a>
+                <h2>Board Of Intermediate Education</h2>
+                <h3>Sree Chaianya Junior College</h3>
+                <p>CGPA : 9.58</p>
+            </div>
+            <div class="item">
+                
+                
+               
+                <a href="https://github.com/hacker-phk/FoodFest"><img src="./graduationimage.jpg" alt="" class="responsive-image"></a>
+                <h2>B.Tech</h2>
+                <h3>Sree Vidyanikethan Engineering College</h3>
+                <p>CGPA : 9</p>
+            </div>
+           
+        </div>
+    </div>
+   
+    <div class="landing_page" >
+        <div class="responsive-container-block big-container">
+          
+          <div class="responsive-container-block container">
+            <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12 left-one">
+              <div class="content-box">
+                <p class="text-blk section-head" id="contact">
+                 Contact me
+                </p>
+                <p class="text-blk section-subhead">
+                  For professional inquiries or to learn more about my work, feel free to get in touch. I welcome the opportunity to discuss potential collaborations and showcase my portfolio. Your interest is valued, and I look forward to connecting.                </p>
+                <div class="icons-container">
+                  <a class="share-icon" href="https://twitter.com/wr1phk" target="_blank">
+                    <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-twitter.png">
+                  </a>
+                  <a class="share-icon" href="https://www.facebook.com/hemanth.pojari.3">
+                    <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-facebook.png">
+                  </a>
+                  <a class="share-icon" href="mailto:pujarihemanthkumar2003@gmail.com">
+                    <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-google.png">
+                  </a>
+                  <a class="share-icon" href="https://www.instagram.com/">
+                    <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-instagram.png">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-6 right-one" id="i1zj">
+              <form class="form-box">
+                <div class="container-block form-wrapper">
+                  <p class="text-blk contactus-head">
+                    <a class="link" href="">
+                    </a>
+                    Message
+                  </p>
+                  <p class="text-blk contactus-subhead">
+                 
+                  </p>
+                  <div class="responsive-container-block">
+                    <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i10mt-7">
+                      <input class="input" id="ijowk-7" name="FirstName" placeholder="First Name">
+                    </div>
+                    <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i1ro7">
+                      <input class="input" id="indfi-5" name="Last Name" placeholder="Last Name">
+                    </div>
+                    <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-6 wk-ipadp-6 emial" id="ityct">
+                      <input class="input" id="ipmgh-7" name="Email" placeholder="Email">
+                    </div>
+                    <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                      <input class="input" id="imgis-6" name="PhoneNumber" placeholder="Phone Number">
+                    </div>
+                    <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i634i-7">
+                      <textarea aria-placeholder="Type message here" class="textinput" id="i5vyy-7" placeholder="Type message here"></textarea>
+                    </div>
+                  </div>
+                  <button class="submit-btn" style="background-color: chocolate;">
+                   Send  a Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+            const items = document.querySelectorAll(".item");
+            items.forEach(item => {
+                item.addEventListener("mouseover", function() {
+                    item.classList.add("green-text");
+                });
+
+                item.addEventListener("mouseout", function() {
+                    item.classList.remove("green-text");
+                });
+            });
+        });
+    </script>
 </body>
 </html>
